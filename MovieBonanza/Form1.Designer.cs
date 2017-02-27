@@ -77,7 +77,7 @@
             // 
             this.YourSelectionGroupBox.Location = new System.Drawing.Point(202, 76);
             this.YourSelectionGroupBox.Name = "YourSelectionGroupBox";
-            this.YourSelectionGroupBox.Size = new System.Drawing.Size(482, 174);
+            this.YourSelectionGroupBox.Size = new System.Drawing.Size(439, 190);
             this.YourSelectionGroupBox.TabIndex = 2;
             this.YourSelectionGroupBox.TabStop = false;
             this.YourSelectionGroupBox.Text = "Your Selection";
