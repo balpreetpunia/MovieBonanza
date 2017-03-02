@@ -15,18 +15,22 @@ namespace MovieBonanza
         /// 
 
         public static Movies movies = new Movies();
-        
+        public static SplashForm MySplashForm;
+
         [STAThread]
         static void Main()
         {
+
 
             string exeDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             Directory.SetCurrentDirectory(exeDir);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectionForm());
 
+            Program.MySplashForm = new SplashForm();
+
+            Application.Run(Program.MySplashForm);
         }
     }
 }

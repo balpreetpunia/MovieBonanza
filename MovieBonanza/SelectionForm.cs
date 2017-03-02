@@ -37,7 +37,8 @@ namespace MovieBonanza
 
             this.Hide();
             OrderForm orderForm = new OrderForm();
-            orderForm.ShowDialog();
+            orderForm.previousForm = this;
+            orderForm.Show();
         }
 
         public void setTitle()

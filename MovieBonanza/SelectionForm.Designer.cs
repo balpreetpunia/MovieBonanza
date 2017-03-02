@@ -198,6 +198,7 @@
             this.MinimizeBox = false;
             this.Name = "SelectionForm";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.YourSelectionGroupBox.ResumeLayout(false);
             this.YourSelectionGroupBox.PerformLayout();
