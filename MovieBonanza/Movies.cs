@@ -12,22 +12,16 @@ namespace MovieBonanza
         public string Title { get; set; }
 
         //Movie genre info
-        public string Genre { get; set; }
+        public string Category { get; set; }
 
         //Movie cost Info
-        public string Cost { get; set; }
+        public Double Cost { get; set; }
 
         //Movie Grand total info
         public string GrandTotal { get; set; }
 
         //Movie picture
-        public System.Drawing.Bitmap Picture { get; set; }
-
-
-        public String MovieIndex (int _index)
-        {
-            return "CedarRapids";
-        }
+        public System.Drawing.Image Image { get; set; }
 
 
     }
