@@ -57,7 +57,7 @@
             // 
             // StreamLabel3
             // 
-            this.StreamLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.StreamLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StreamLabel3.AutoSize = true;
             this.StreamLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StreamLabel3.Location = new System.Drawing.Point(60, 112);

@@ -23,8 +23,25 @@ namespace MovieBonanza
             StreamLabel3.Text = Program.movies.Title + " will begin streaming shortly.";
             StreamLabel2.TextAlign = ContentAlignment.MiddleCenter;
             StreamLabel3.TextAlign = ContentAlignment.MiddleCenter;
+            StreamLabel3.Left = 
         }
-
+        /*Label StreamLabel2 = new Label()
+        {
+            AutoSize = false,
+            TextAlign = ContentAlignment.MiddleCenter,
+            Dock = DockStyle.None,
+            Left = 10,
+            Width = myDialog.Width - 10
+        };
+        Label StreamLabel2 = new Label()
+        {
+            AutoSize = false,
+            TextAlign = ContentAlignment.MiddleCenter,
+            Dock = DockStyle.None,
+            Left = 10,
+            Width = myDialog.Width - 10
+        };
+        */
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
