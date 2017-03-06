@@ -134,5 +134,10 @@ namespace MovieBonanza
         {
             MessageBox.Show("Page has been sent to the printer.");
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 aboutForm = new AboutBox1();
+        }
     }
 }
