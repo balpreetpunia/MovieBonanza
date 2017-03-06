@@ -53,11 +53,11 @@
             this.StreamButton = new System.Windows.Forms.Button();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.streamStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.streamStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -298,20 +298,27 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
             // 
+            // streamStripMenuItem1
+            // 
+            this.streamStripMenuItem1.Name = "streamStripMenuItem1";
+            this.streamStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.streamStripMenuItem1.Text = "Stream";
+            this.streamStripMenuItem1.Click += new System.EventHandler(this.streamStripMenuItem1_Click);
+            // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.printToolStripMenuItem.Text = "&Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // cancelToolStripMenuItem
             // 
             this.cancelToolStripMenuItem.Name = "cancelToolStripMenuItem";
-            this.cancelToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cancelToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.cancelToolStripMenuItem.Text = "Cancel";
             this.cancelToolStripMenuItem.Click += new System.EventHandler(this.cancelToolStripMenuItem_Click);
             // 
@@ -329,13 +336,6 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // streamStripMenuItem1
-            // 
-            this.streamStripMenuItem1.Name = "streamStripMenuItem1";
-            this.streamStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.streamStripMenuItem1.Text = "Stream";
-            this.streamStripMenuItem1.Click += new System.EventHandler(this.streamStripMenuItem1_Click);
             // 
             // OrderForm
             // 
