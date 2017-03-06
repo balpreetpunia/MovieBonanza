@@ -92,7 +92,7 @@
             this.Name = "StreamForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StreamForm";
+            this.Text = "Your movie will begin shortly!";
             this.Load += new System.EventHandler(this.StreamForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

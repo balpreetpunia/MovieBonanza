@@ -12,6 +12,14 @@ using System.Windows.Forms;
 
 namespace MovieBonanza
 {
+    /// <summary>
+    /// App Name - Movie Bonanza
+    /// Author - Balpreet Punia
+    /// Student Id - 200335082
+    /// Creation Date - 2017-03-05
+    /// Description - This app lets user select a movie to stream and also lets them order a DVD for the same.
+    /// </summary>
+
     public partial class SelectionForm : Form
     {
         public SelectionForm()
@@ -19,9 +27,14 @@ namespace MovieBonanza
             InitializeComponent();
         }
 
-
+        /// <summary>
+        /// To set all the values
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MoviesListBox_SelectedValueChanged(object sender, EventArgs e)
         {
+            //Calling the method to set the values
             setTitle();
             setImage();
             setCategory();
@@ -29,6 +42,11 @@ namespace MovieBonanza
             NextButton.Enabled = true;
         }
 
+        /// <summary>
+        /// Next button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NextButton_Click(object sender, EventArgs e)
         {
             Program.movies.Title = TitleTextBox.Text;
@@ -41,12 +59,18 @@ namespace MovieBonanza
             orderForm.Show();
         }
 
+        /// <summary>
+        /// Setting title
+        /// </summary>
         public void setTitle()
         {
             TitleTextBox.Text = MoviesListBox.Text;
 
         }
 
+        /// <summary>
+        /// To check category and set it
+        /// </summary>
         public void setCategory()
         {
             if(MoviesListBox.SelectedIndex == 3 || MoviesListBox.SelectedIndex == 8)
@@ -103,6 +127,9 @@ namespace MovieBonanza
             }
         }
 
+        /// <summary>
+        /// To check the movie and set its image
+        /// </summary>
         public void setImage()
         {
             if (TitleTextBox.Text == "Cedar Rapids")

@@ -199,7 +199,7 @@
             this.Name = "SelectionForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Select Your Movie";
             this.YourSelectionGroupBox.ResumeLayout(false);
             this.YourSelectionGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MoviePictureBox)).EndInit();
